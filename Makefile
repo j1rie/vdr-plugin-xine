@@ -97,7 +97,9 @@ OBJS = $(PLUGIN).o xineDevice.o xineLib.o xineOsd.o xineSettings.o xineSetupPage
 
 ### The main target:
 
-all: libvdr-$(PLUGIN).so i18n xineplayer
+all: libvdr-$(PLUGIN).so xineplayer
+
+### i18n
 
 ### Implicit rules:
 

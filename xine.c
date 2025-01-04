@@ -13,7 +13,7 @@
 #include "xineDevice.h"
 #include "xineSettings.h"
 #include "xineSetupPage.h"
-#include "xineI18n.h"
+//#include "xineI18n.h"
 
 
 
