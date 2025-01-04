@@ -1195,7 +1195,7 @@ while (Length >= TS_SIZE)
       int pid = TsPid(Data);
       if (pid == 0)
         patPmtParser.ParsePat(Data, TS_SIZE);
-      else if (pid == patPmtParser.PmtPid())
+      else if (patPmtParser.IsPmtPid(pid))
         patPmtParser.ParsePmt(Data, TS_SIZE);
       else if (pid == patPmtParser.Vpid())
       {
