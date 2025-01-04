@@ -1,0 +1,6 @@
+xine overwrites the config file, so the template config file needs to be copied every time before starting xine
+config.template is an example and start-xine.example shows how to use it
+
+For perfect trickspeed get the last good xine version:
+hg clone http://hg.code.sf.net/p/xine/xine-lib-1.2 -u 613d421745a45d269a031edd60032b27903b57b1
+vdr-plugin-xine has not been adapted to later versions.
