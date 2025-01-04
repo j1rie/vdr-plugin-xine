@@ -1,0 +1,2 @@
+xine overwrites the config file, so the template config file needs to be copied every time before starting xine
+config.template is an example and start-xine.example shows how to use it

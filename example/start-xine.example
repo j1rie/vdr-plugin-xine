@@ -1,0 +1,7 @@
+#! /bin/sh
+cp /root/.xine/config.template /root/.xine/config
+export VDPAU_NVIDIA_NO_OVERLAY=0
+DISPLAY=:0 /usr/local/bin/xine -A alsa:default -V vdpau -f -g --no-splash --post vdr_video --post vdr_audio --post vdr vdr://tmp/vdr-xine/stream#demux:mpeg_pes &
+sleep 10
+nvidia-settings -c :0  -a SyncToVBlank=1
+exit
